@@ -14,7 +14,6 @@ while True:
     
     if(Sens == 1):
 		netup = net_is_up()
-		
 		if(netup ==1 ):
 			SendNotif("Test message")
 	
